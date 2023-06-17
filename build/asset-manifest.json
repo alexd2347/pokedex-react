@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53de3733.css",
+    "main.js": "/static/js/main.7fffc4d5.js",
+    "static/js/787.ef0931bf.chunk.js": "/static/js/787.ef0931bf.chunk.js",
+    "static/media/logo.png": "/static/media/logo.c8e5f5413616d2d8709c.png",
+    "static/media/Psiquico.svg": "/static/media/Psiquico.9b7240143453d5357360da1476cd2dd9.svg",
+    "static/media/Hada.svg": "/static/media/Hada.59a9f8c81258d5091123ff27a7ce4761.svg",
+    "static/media/Lucha.svg": "/static/media/Lucha.311260db6e6ffd20aef01d4fe16e19d1.svg",
+    "static/media/Dragon.svg": "/static/media/Dragon.7494cd383def6afa433391bca40cbd77.svg",
+    "static/media/Planta.svg": "/static/media/Planta.e3750b952566144534beb5ed5e13c489.svg",
+    "static/media/Veneno.svg": "/static/media/Veneno.fcc2809522b614f20d8c6ec4d39a79f3.svg",
+    "static/media/Fantasma.svg": "/static/media/Fantasma.9115713fbd277370b1941d5133810390.svg",
+    "static/media/Fuego.svg": "/static/media/Fuego.86cf6e1147018a58a9965526a1b536a3.svg",
+    "static/media/Volaror.svg": "/static/media/Volaror.daa8f19dbc4ca5b99f329cbfbac12b19.svg",
+    "static/media/Bicho.svg": "/static/media/Bicho.63e8c454685c8c9b074e40b3b9aa99b4.svg",
+    "index.html": "/index.html",
+    "static/media/HIelo.svg": "/static/media/HIelo.d8a3b4ad5de99dfd76899a056b878c30.svg",
+    "static/media/Siniestro.svg": "/static/media/Siniestro.9b85ad5565808bf6760ba3369f29aee5.svg",
+    "static/media/Agua.svg": "/static/media/Agua.538ac0b04e1584ca7887d4df3b449047.svg",
+    "static/media/Roca.svg": "/static/media/Roca.06b9a30ca395767adf046e0b1dc97872.svg",
+    "static/media/Normal.svg": "/static/media/Normal.ea5d199ad77c5b421d88159de0b67ecf.svg",
+    "static/media/Acero.svg": "/static/media/Acero.a4ab570bfddaeffbe5396c142ee2d13a.svg",
+    "static/media/Tierra.svg": "/static/media/Tierra.bbeca5cffba61cc838814e68ac22ab67.svg",
+    "static/media/Electrico.svg": "/static/media/Electrico.920883099133b7db3f983853435d31a6.svg",
+    "main.53de3733.css.map": "/static/css/main.53de3733.css.map",
+    "main.7fffc4d5.js.map": "/static/js/main.7fffc4d5.js.map",
+    "787.ef0931bf.chunk.js.map": "/static/js/787.ef0931bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53de3733.css",
+    "static/js/main.7fffc4d5.js"
+  ]
+}

@@ -1,0 +1,206 @@
+:root {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.pokemon-details-container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.pokemon-details-container::-webkit-scrollbar {
+    width: 1rem;
+    background-color: rgb(206, 206, 206);
+}
+
+.pokemon-details-container::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 21, 255);
+    border-radius: 1rem;
+}
+
+.pokemon-details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.pokemon-details h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pokemon-img {
+    margin-top: 3rem;
+    width: 35%;
+    height: 80%;
+    border-radius: 2rem;
+    padding-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    transition: .3s ease-in-out;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.pokemon-img:hover{
+    filter: saturate(150%)
+}
+.pokemon-image-container {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background-image: radial-gradient( white, transparent);
+    margin-top: 1rem;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.pokemon-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 45rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.pokemon-image:hover {
+    transform: scale(1.1) translateY(0.5rem);
+}
+
+
+
+.estadisticas {
+    width: 40%;
+    height: 80%;
+    margin: 0rem;
+    border-radius: 2rem;
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    /*
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);*/
+    transition: .3s ease-in-out;
+}
+
+.pokemon-details img {
+    width: auto;
+    height: 23rem;
+    transition: transform 0.3s ease;
+}
+
+.stat-label {
+    font-size: 1.5rem !important;
+    background-color: #e4e4e4;
+    width: 15rem;
+    border-radius: 1rem;
+    padding: .1rem 1rem;
+    margin: .3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255) !important;
+}
+
+.stat-label-black {
+    font-size: 1.2rem !important;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255) !important;
+}
+
+.pokemon-details .stat-bar {
+    height: 2rem;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    background-color: #cfcfcf;
+    border-radius: 1rem;
+    margin-bottom: 0rem;
+    transition: transform 0.3s ease;
+
+    box-shadow: 1px 1px 5px rgba(255, 255, 255. .5);
+}
+.estadistica-container:hover {
+    transition: .3s ease-in-out !important;
+}
+.estadistica-container:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-details .stat-bar .bar {
+    height: 100%;
+    border-radius: 1rem;
+    margin: 0rem;
+    transition: width 0.3s ease;
+    max-width: 100%;
+}
+.stat-bar {
+    margin: 0rem;
+}
+
+.name-title {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255) !important;
+}
+
+.pokemon-name {
+    position: absolute;
+    z-index: 999;
+    font-size: 4rem !important;
+    color: rgb(27, 27, 27);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255) !important;
+    transform: translateY(-3rem);
+}
+
+.abilities-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.ability {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2c2c;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem !important;
+    padding: .5rem 1rem;
+    margin: .5rem .5rem;
+    transition: .3s ease-in-out;
+}
+
+.ability:hover {
+    transform: scale(1.1);
+}
+
+.pokemon-details .stat-bar .hp {
+    background-color: #ff0000;
+}
+
+.pokemon-details .stat-bar .attack {
+    background-color: #ff8c00;
+}
+
+.pokemon-details .stat-bar .defense {
+    background-color: #ffd000;
+}
+
+.pokemon-details .stat-bar .special-attack {
+    background-color: #00b7ff;
+}
+
+.pokemon-details .stat-bar .special-defense {
+    background-color: #00fff2;
+}
+
+.pokemon-details .stat-bar .speed {
+    background-color: #ff0062;
+}
